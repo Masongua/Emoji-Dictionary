@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9A386ED22964A5E400582255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386ED12964A5E400582255 /* AppDelegate.swift */; };
 		9A386ED42964A5E400582255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386ED32964A5E400582255 /* SceneDelegate.swift */; };
-		9A386ED62964A5E400582255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386ED52964A5E400582255 /* ViewController.swift */; };
 		9A386ED92964A5E400582255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A386ED72964A5E400582255 /* Main.storyboard */; };
 		9A386EDB2964A5E600582255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A386EDA2964A5E600582255 /* Assets.xcassets */; };
 		9A386EDE2964A5E600582255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A386EDC2964A5E600582255 /* LaunchScreen.storyboard */; };
+		9A386EE82964A90A00582255 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386EE72964A90A00582255 /* TableViewController.swift */; };
+		9A386EEA2964A98D00582255 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A386EE92964A98D00582255 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A386ECE2964A5E400582255 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A386ED12964A5E400582255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A386ED32964A5E400582255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A386ED52964A5E400582255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A386ED82964A5E400582255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A386EDA2964A5E600582255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A386EDD2964A5E600582255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A386EDF2964A5E600582255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A386EE72964A90A00582255 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9A386EE92964A98D00582255 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 		9A386EC52964A5E400582255 = {
 			isa = PBXGroup;
 			children = (
+				9A386EE92964A98D00582255 /* File.swift */,
+				9A386EE72964A90A00582255 /* TableViewController.swift */,
 				9A386ED02964A5E400582255 /* Emoji Dictionary */,
 				9A386ECF2964A5E400582255 /* Products */,
 			);
@@ -58,7 +62,6 @@
 			children = (
 				9A386ED12964A5E400582255 /* AppDelegate.swift */,
 				9A386ED32964A5E400582255 /* SceneDelegate.swift */,
-				9A386ED52964A5E400582255 /* ViewController.swift */,
 				9A386ED72964A5E400582255 /* Main.storyboard */,
 				9A386EDA2964A5E600582255 /* Assets.xcassets */,
 				9A386EDC2964A5E600582255 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A386ED62964A5E400582255 /* ViewController.swift in Sources */,
 				9A386ED22964A5E400582255 /* AppDelegate.swift in Sources */,
+				9A386EEA2964A98D00582255 /* File.swift in Sources */,
+				9A386EE82964A90A00582255 /* TableViewController.swift in Sources */,
 				9A386ED42964A5E400582255 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
